@@ -28,9 +28,9 @@ namespace ping_pong_app
         int[] i = { 5, 6, 8, 9 };
         int[] j = { 10, 8, 8, 11, 12 };
 
-        //zvuky
-        SoundPlayer racket = new SoundPlayer(@"..\ping pong app\racket.wav");
-        SoundPlayer ground = new SoundPlayer(@"..\ping pong app\ground.wav");
+        //sounds
+        SoundPlayer racket = new SoundPlayer("racket.wav");
+        SoundPlayer ground = new SoundPlayer("ground.wav");
 
         public Form1()
         {

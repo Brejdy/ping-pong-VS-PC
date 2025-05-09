@@ -86,5 +86,13 @@
   <ItemGroup>
     <None Include="Table_tennis_ball.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ground.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="racket.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
